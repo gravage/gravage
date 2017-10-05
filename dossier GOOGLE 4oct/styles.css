@@ -1,0 +1,115 @@
+/* Global Layout Set-up */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: white
+        ;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+a:hover {
+    color: #6633ff;
+}
+
+
+.main-nav {
+    width: 100%;
+    background: white;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: right;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+} 
+
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+.nav a {
+    transition: all .5s;
+}
+.nav a:hover {
+    color: white
+}
+
+.container {
+    text-align: center;
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==) no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+    line-height: 1.5;
+    min-height: 450px;
+}
+
+.container .profile-image {
+    margin-top: 50px;
+    width: 425px;
+    height: 200px;
+    transition: all .5s;
+}
+
+
+footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+    top: -8px;
+    margin-right: 20px;
+    font-size: .75em;
+}
+
+
+
+.monBouton {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 100px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.monBouton:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 450px;
+}
+
